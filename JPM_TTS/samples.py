@@ -2,7 +2,7 @@ import os
 import httpx
 import xml.sax.saxutils as saxutils
 
-AZURE_KEY = "XXX"
+AZURE_KEY = open("AZURE_KEY").read()
 AZURE_REGION = "eastus"
 PROXY = "socks5://127.0.0.1:7890"
 SAMPLE_TEXT = "话说大宋徽宗皇帝政和年间，朝中宠信高杨童蔡四个奸臣，以致天下大乱，黎民失业，百姓倒悬。"
