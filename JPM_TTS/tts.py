@@ -4,7 +4,7 @@ import xml.sax.saxutils as saxutils
 
 CHAPTERS_DIR = "chapters"
 OUTPUT_DIR = "audio"
-AZURE_KEY = "XXX"
+AZURE_KEY = open("AZURE_KEY").read()
 AZURE_REGION = "eastus"
 PROXY = "socks5://127.0.0.1:7890"
 VOICE = "zh-CN-YunyangNeural"
